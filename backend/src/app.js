@@ -41,6 +41,11 @@ app.use('/api/users', userRoutes);
 
 app.get('/api/health', (_req, res) => res.json({ status: 'OK', timestamp: new Date() }));
 
+// Root route for backend portal
+app.get('/', (_req, res) => {
+  res.send('🏎️ F1 Insight API is running smoothly! Send requests to /api');
+});
+
 // ─── Error Handler ────────────────────────────────────────
 app.use(errorHandler);
 
