@@ -41,7 +41,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 mb-6 px-3 py-1.5"
               style={{ background: 'rgba(238,63,44,0.15)', border: '1px solid rgba(238,63,44,0.4)' }}>
               <span className="w-2 h-2 rounded-full bg-red-500" style={{ animation: 'blink 1.5s infinite' }} />
-              <span className="text-xs font-bold uppercase tracking-widest" style={{ color: 'var(--red)' }}>Live Season 2025</span>
+              <span className="text-xs font-bold uppercase tracking-widest" style={{ color: 'var(--red)' }}>Live Season 2026</span>
             </div>
 
             <h1 className="font-black uppercase leading-none mb-6"
